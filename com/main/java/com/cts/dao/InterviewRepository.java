@@ -11,6 +11,7 @@ import org.springframework.stereotype.Repository;
 import com.cts.model.InterviewDetails;
 
 @Repository
+//this is repository class
 public interface InterviewRepository extends JpaRepository<InterviewDetails, Integer> {
 	
 	public InterviewDetails findByInterviewId(int interviewId);
