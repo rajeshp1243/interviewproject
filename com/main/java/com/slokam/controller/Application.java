@@ -13,6 +13,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EnableJpaRepositories(basePackages = { "com.slokam.dao", "com.slokam.service" })
 @ComponentScan(basePackages = { "com.slokam" })
 @SpringBootApplication
+//this is APPLICTAION class 
 public class Application {
 
 	public static void main(String[] args) {
