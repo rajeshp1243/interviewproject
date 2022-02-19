@@ -1,0 +1,8 @@
+getting any error .after import and run as java application.then
+
+need to add jdk path
+
+rightclick on the project -->click on BuildPath-->click on configure Build Path
+-->click on library-->add Library-->JRE system Library-->click on installed JRE
+-->give our local jdk path(like :C:\Program Files\Java\jdk1.8.0_281)
+-->apply and close.
