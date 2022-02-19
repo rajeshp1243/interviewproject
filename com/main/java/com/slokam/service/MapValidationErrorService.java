@@ -1,6 +1,6 @@
 package com.slokam.service;
 
-import java.util.HashMap;
+import java.util.*;
 import java.util.Map;
 
 import org.springframework.http.HttpStatus;
