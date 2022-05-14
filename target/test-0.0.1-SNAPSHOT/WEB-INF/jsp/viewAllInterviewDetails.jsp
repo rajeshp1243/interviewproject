@@ -83,7 +83,7 @@ form.example::after {
 					<td>${interview.answer}</td>
 					<td>${interview.interviewDate}</td>
 					<td>${interview.interviewQuestion}</td>
-<!-- //getInterviewById/ -->
+
 					<td><a href="getInterviewById/${interview.interviewId}"><button
 								type="button" class="btn btn-info btn-lg">view</button></a></td>
 					<td><a href="deleteInterview/${interview.interviewId}"><button

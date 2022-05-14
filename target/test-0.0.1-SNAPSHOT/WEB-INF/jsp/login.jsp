@@ -1,6 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>  
 <c:url value="/login" var="loginUrl"/>  
-<h1>iam in login page</h1>
 <form action="${loginUrl}" method="post">         
     <c:if test="${param.error != null}">          
         <p>  

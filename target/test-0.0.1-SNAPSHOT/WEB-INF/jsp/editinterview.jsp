@@ -7,21 +7,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <h1>iam in edit</h1>
-  <!-- <script type="text/javascript">
-			function myAnswer() {
-				var result = '';
-				var i, start, end, answerData;
-				answerData = document.getElementById("viewdata").value;
-				while (answerData.length > 0) {
-					result = result + "<p>" + answerData.substring(0, 100)
-							+ "</p>" + '\n';
-					answerData = answerData.substring(100);
-				}
-				console.log(result);
-				return result;
-			}
-		</script> -->
+  
 </head>
 <body>
 <div class="container">
@@ -41,14 +27,14 @@
          <tr>    
           <td>failureReason :</td>    
           <td><form:textarea path="failureReason" /></td>  
-         </tr>  
-          <!-- answer start -->
+         </tr>   
            <tr>   
           <td>Answer :</td>    
-          <td><form:textarea path="answer"></form:textarea>  
+          <td><form:textarea id="viewdata" path="answer"/>  
+          <button type="button" id="viewdata" class="btn btn-info btn-lg" 
+          data-toggle="modal" data-target="#myModal">View Answer</button>
           </td>  
          </tr>
-         <!-- answer end -->
          <tr>    
           <td>Interview Date :</td>    
           <td><form:input path="interviewDate" /></td>  
@@ -82,14 +68,5 @@
   </div> 
        </form:form> 
        </div>
-       <%-- 
-       <tr>   
-          <td>Answer :</td>    
-          <td><form:textarea <%-- id="viewdata" onclick="viewdata"  --%>path="answer"/>  
-          <!-- <button type="button" id="viewdata" name="answer" class="btn btn-info btn-lg" 
-          data-toggle="modal" data-target="#myModal">View Answer</button> -->
-          </td>  
-         </tr> --%>
-       
  </body>      
 </html>  
